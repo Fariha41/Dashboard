@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+
+<!-- header -->
+<section class="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Dashboard</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <div class="search">
+                        <input class="dashbaord-search" autocomplete="off" placeholder="Search" type="text" />
+                        <div class="search-icon-container">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-box"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+</section>
+<!-- header -->
+
+<!-- offer cards -->
+<section class="offer-cards mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="card offer-card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card-icon-container c1">
+                            <i class="fa-solid fa-paste"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="card-body-des">
+                            <h6>Used Space</h6>
+                            <h4>49/50 GB</h4>
+                        </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <i class="fa-solid fa-triangle-exclamation"></i> <span>Get More Space...</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card offer-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                          <div class="card-icon-container c2">
+                            <i class="fa-solid fa-house-chimney"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-body-des">
+                              <h6>Revenue</h6>
+                              <h4>$34,245</h4>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <i class="fa-solid fa-calendar-days"></i> <span>Last 24 Hours</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card offer-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                          <div class="card-icon-container c3">
+                            <i class="fa-solid fa-circle-info"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-body-des">
+                              <h6>Fixed Issues</h6>
+                              <h4>1,555</h4>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <i class="fa-solid fa-tag"></i> <span>Tracked From GitHub</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card offer-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                          <div class="card-icon-container c4">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="card-body-des">
+                              <h6>Followers</h6>
+                              <h4>1000+</h4>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <i class="fa-solid fa-rotate-right"></i> <span>Just Updated</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+<!-- offer cards -->
+
+<!-- show cards -->
+<section class="show-cards mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card show-card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-12">
+                        <div class="img-container">
+                            <img class="img-fluid" src="images/chart.png" alt="chart">
+                        </div>
+                        <h5>Daily Sales</h5>
+                        <span>↑ 55% increase in today sales.</span>
+                    </div>
+                  </div>
+                  <hr>
+                  <i class="fa-solid fa-clock"></i> <span>updated 4 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card show-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <div class="img-container">
+                              <img class="img-fluid" src="images/chart2.png" alt="chart">
+                          </div>
+                          <h5>Email Subscriptions</h5>
+                          <span>Last Campaign Performance</span>
+                      </div>
+                    </div>
+                    <hr>
+                    <i class="fa-solid fa-clock"></i> <span>campaign sent 2 days ago</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card show-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <div class="img-container">
+                              <img class="img-fluid" src="images/chart3.png" alt="chart">
+                          </div>
+                          <h5>Completed Tasks</h5>
+                          <span>Last Campaign Performance</span>
+                      </div>
+                    </div>
+                    <hr>
+                    <i class="fa-solid fa-clock"></i> <span>campaign sent 2 days ago</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+<!-- show cards -->
+
+<!-- record cards -->
+<section class="record-cards mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card record-card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-container t1">
+                            <h5>Employees Stats</h5>
+                            <span>New employees on 15th September, 2016</span>
+                        </div><table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Salary</th>
+                                <th scope="col">Country</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Dakota Rice</td>
+                                <td>$36,378</td>
+                                <td>Niger</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Minerva Hooper</td>
+                                <td>$23,789</td>
+                                <td>Sudan</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Sage Rodriguez</td>
+                                <td>$56,123</td>
+                                <td>Hungry</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Philip Chaney</td>
+                                <td>$79,456</td>
+                                <td>South Korea</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card record-card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <div class="text-container t2">
+                              <h5>Employees Stats</h5>
+                              <span>New employees on 15th September, 2016</span>
+                          </div><table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">ID</th>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Salary</th>
+                                  <th scope="col">Country</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-group-divider">
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Dakota Rice</td>
+                                  <td>$36,378</td>
+                                  <td>Niger</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Minerva Hooper</td>
+                                  <td>$23,789</td>
+                                  <td>Sudan</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>Sage Rodriguez</td>
+                                  <td>$56,123</td>
+                                  <td>Hungry</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">4</th>
+                                  <td>Philip Chaney</td>
+                                  <td>$79,456</td>
+                                  <td>South Korea</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+<!-- record cards -->
+
+<!-- footer -->
+<footer class="mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Creative Tim</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link">Licenses</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="copyright-text">
+                    <span>© 2022, made by Salma Fariha Aktar.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
